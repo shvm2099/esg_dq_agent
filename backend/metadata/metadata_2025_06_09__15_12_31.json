@@ -1,0 +1,153 @@
+{
+  "paragraphs": [
+    {
+      "paragraph_index": 0,
+      "text": "ESG Report – Company_001\nESG Report – Company_001\nIndustry: Transportation\nCountry: USA\nReporting Month: April 2025\nEnvironmental Disclosures (GRI 305 – Emissions)\nIn April 2025, Company_001 reported total direct greenhouse gas (GHG) emissions of 114.9 tons, measured in accordance with the GHG Protocol. This includes emissions from fuel combustion across logistics and operations (Scope 1).",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.990242600440979
+        },
+        {
+          "label": "governance",
+          "score": 0.4837370216846466
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4123400151729584
+        }
+      ]
+    },
+    {
+      "paragraph_index": 1,
+      "text": "Indirect energy-related GHG emissions (Scope 2) from electricity consumption were 47,926.04 kWh, with market- and location-based factors considered. The company has also begun evaluating Scope 3 emissions, particularly from supply chain logistics and employee commuting, though full data is pending.",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.4622064232826233
+        },
+        {
+          "label": "supply chain",
+          "score": 0.41813984513282776
+        }
+      ]
+    },
+    {
+      "paragraph_index": 2,
+      "text": "Company_001 sources 20.92% of its energy from renewable sources, with plans to transition a greater share of electricity usage to clean energy by 2026.",
+      "predicted_tags": [
+        {
+          "label": "energy transition",
+          "score": 0.9928993582725525
+        },
+        {
+          "label": "environmental",
+          "score": 0.5296687483787537
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4496518671512604
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4208187758922577
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.4071906805038452
+        }
+      ]
+    },
+    {
+      "paragraph_index": 3,
+      "text": "Air quality remains moderate with an AQI of 48.72, within safe operational limits.",
+      "predicted_tags": [
+        {
+          "label": "social",
+          "score": 0.5196689367294312
+        },
+        {
+          "label": "data privacy",
+          "score": 0.4409227669239044
+        }
+      ]
+    },
+    {
+      "paragraph_index": 4,
+      "text": "Resource Management (GRI 303 – Water and Effluents, GRI 306 – Waste)\nWater consumption during the reporting period was 332,384.43 liters, with conservation protocols in place for vehicle maintenance facilities. Waste generation amounted to 1,456.91 kg, primarily from mechanical operations and packaging, of which 22% was recycled.",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.5483272075653076
+        }
+      ]
+    },
+    {
+      "paragraph_index": 5,
+      "text": "Occupational Health & Safety (GRI 403)\nCompany_001 maintains an occupational health and safety management system that complies with international best practices.\n- Workplace Incidents: 0 reported\n- Average Worker Heart Rate (sensor-monitored): 90.79 bpm, indicating normal exertion levels.\n- Training Hours per Employee: 9.36 hours, covering safety, compliance, and equipment handling.\nGovernance and Ethics (GRI 102, GRI 405)\nThe board comprises 64.44% independent directors, ensuring oversight and accountability.\nA strong code of ethics is in place with regular training to enforce principles around transparency, anti-corruption, and whistleblowing mechanisms.\nCompliance Alerts: 2 incidents were flagged and promptly resolved.\nAudit Frequency: 3 times per year, exceeding minimum requirements.\nData Transparency Score: 98.8 out of 100.\nDiversity, Equity, and Inclusion\nThe company maintains a Diversity Index of 0.85, reflecting representation across gender, age, and background. Active hiring and development programs aim to further improve inclusivity across all levels.",
+      "predicted_tags": [
+        {
+          "label": "carbon emissions",
+          "score": 0.9871923327445984
+        },
+        {
+          "label": "supply chain",
+          "score": 0.986916184425354
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.9859318733215332
+        },
+        {
+          "label": "client-facing",
+          "score": 0.9837916493415833
+        },
+        {
+          "label": "energy transition",
+          "score": 0.9837510585784912
+        },
+        {
+          "label": "data privacy",
+          "score": 0.9825952053070068
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.9821594953536987
+        },
+        {
+          "label": "human rights",
+          "score": 0.9820883870124817
+        },
+        {
+          "label": "public",
+          "score": 0.9815101027488708
+        },
+        {
+          "label": "internal",
+          "score": 0.9809783697128296
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.9806002974510193
+        },
+        {
+          "label": "environmental",
+          "score": 0.9798554182052612
+        },
+        {
+          "label": "governance",
+          "score": 0.9793255925178528
+        },
+        {
+          "label": "social",
+          "score": 0.9789381623268127
+        }
+      ]
+    },
+    {
+      "paragraph_index": 6,
+      "text": "Digital Infrastructure and Cybersecurity\n- Asset Monitoring Frequency: Logged at 8 checks/month using smart IoT sensors.\n- IoT Cyber Incidents: 0\n- Occupancy Rate: 41.24%, due to staggered hybrid work model.\nSocial Metrics\n- Employee Satisfaction Score: 80.67, based on quarterly anonymous surveys.\n- Ongoing efforts in upskilling and mental health support are prioritized.\nSummary of Progress\n- GHG emissions and energy metrics are fully reported in line with GRI 305-1, 305-2.\n- DEI data and governance structure mapped to GRI 405 and 102 series.\n- Cyber and physical safety controls exceed GRI recommendations.\n- Water and waste data available for GRI 303 and 306 alignment.",
+      "predicted_tags": []
+    }
+  ]
+}

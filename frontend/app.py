@@ -9,7 +9,7 @@ load_dotenv()
 
 BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
 
-sit.set_page_config(page_title="ESG Document Quality", layout="centered")
+sit.set_page_config(page_title="ESG Document Quality", layout="wide")
 
 image_path = "pics/kpmg.png"
 if os.path.exists(image_path):

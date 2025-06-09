@@ -72,19 +72,3 @@ def save_compliance_report(report: dict, folder="backend/compliance_reports") ->
     return filename
 
 
-
-### for testing
-
-# if __name__ == "__main__":
-#     sample_text = """
-#     Our governance structure includes a board committee and authority delegation.
-
-#     We track scope 1 and scope 2 emissions in line with the GHG protocol.
-
-#     Our health and safety system covers all production facilities.
-#     """
-#     rules = load_gri_rules()
-#     result = check_gri_compliance(sample_text, rules)
-#     print(json.dumps(result, indent=2))
-#     save_structured_compliance_report(result)
-

@@ -12,12 +12,15 @@ Restructure the following ESG (Environmental, Social, and Governance) report to 
 This report may be reviewed by government authorities, board members, and executive stakeholders, so it must be upto that standard
 
 Use following sectional framework if possible/applicable:
-1.Executive Summary
-2. Context and Objectives
-3. Methodology, Data sources, ESG framework
-4. ESG performance Analysis and key Findings
-5. Risks, challanges, Opportunities
-6. Conclusions and (if applicable) Recommendations
+1. Executive Summary  
+2. Organizational Profile  
+3. Stakeholder Engagement  
+4. Material Topics  
+5. Management Approach  
+6. Environmental Performance  
+7. Social Performance  
+8. Governance  
+9. Conclusions and Future Outlook
 Appendices (if applicable)Supplementary data, charts, or technical notes
 
 Your task is to:
@@ -33,3 +36,11 @@ Input ESG Report:
     
     response = model.generate_content(prompt)
     return response.text
+
+
+# 1.Executive Summary
+# 2. Context and Objectives
+# 3. Methodology, Data sources, ESG framework
+# 4. ESG performance Analysis and key Findings
+# 5. Risks, challanges, Opportunities
+# 6. Conclusions and (if applicable) Recommendations

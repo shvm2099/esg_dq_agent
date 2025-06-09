@@ -65,4 +65,4 @@ def extract_metadata(text: str, folder: str = "backend/metadata", threshold: flo
     with open(full_path, "w", encoding="utf-8") as f:
         json.dump({"paragraphs": results}, f, indent=2, ensure_ascii=False)
 
-    return filename  
+    return filename

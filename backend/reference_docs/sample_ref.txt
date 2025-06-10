@@ -1,0 +1,201 @@
+TechNova
+Executive Summary
+This Environmental, Social, and Governance (ESG) report presents a
+comprehensive overview of TechNova International’s sustainability performance
+for the fiscal year ending December 31, 2024. Prepared in accordance with the
+Global Reporting Initiative (GRI) Standards, this report details our progress,
+challenges, and future commitments across key ESG dimensions. As a global
+technology leader, TechNova International recognizes its responsibility to drive
+positive change, foster innovation, and uphold ethical standards in all aspects of
+its operations. This year, we achieved a 17 percent reduction in Scope 1 and 2
+greenhouse gas emissions, increased the representation of women and
+underrepresented minorities in our workforce by 8 percent, and strengthened our
+governance framework to enhance transparency and accountability. We engaged
+with over 2,000 stakeholders worldwide to identify material topics and inform
+our sustainability strategy. Our commitment to sustainable growth is reflected in
+our ongoing investments in renewable energy, employee well-being, digital
+inclusion, and robust governance practices. This report outlines our
+achievements, areas for improvement, and strategic priorities for the coming
+years.
+Organizational Profile
+TechNova International is a publicly traded multinational corporation
+specializing in cloud computing, artificial intelligence, and digital infrastructure
+solutions. Headquartered in San Francisco, California, the company operates in
+38 countries with a workforce of 72,000 employees as of December 2024. Our
+core business segments include enterprise software, data analytics, cybersecurity,
+and hardware manufacturing. In 2024, TechNova generated USD 24.6 billion in
+revenue, with 62 percent derived from North America, 24 percent from Europe,
+10 percent from Asia-Pacific, and the remaining 4 percent from Latin America
+and Africa. Our supply chain comprises over 1,200 suppliers, with 78 percent of
+procurement spend directed towards partners who have adopted our Supplier
+Code of Conduct. TechNova is listed on the New York Stock Exchange and is
+included in the Dow Jones Sustainability Index, FTSE4Good, and the MSCI ESG
+Leaders Index. The company’s mission is to empower individuals and
+organizations through transformative technology while ensuring responsible
+stewardship of environmental and social resources.
+Stakeholder Engagement
+TechNova’s approach to stakeholder engagement is rooted in transparency,
+inclusivity, and responsiveness. We recognize that our long-term success depends
+on understanding and addressing the expectations of diverse stakeholder groups,
+including employees, customers, investors, suppliers, regulators, communities,
+and non-governmental organizations. In 2024, we conducted a comprehensive
+stakeholder mapping exercise, followed by a series of engagement activities such
+as online surveys, focus groups, town hall meetings, and bilateral consultations.
+Over 2,000 stakeholders participated in these activities, providing valuable
+feedback on our ESG performance and priorities. Key themes raised included
+climate action, data privacy, diversity and inclusion, supply chain responsibility,
+and ethical innovation. Stakeholder input directly informed our materiality
+assessment and the development of our 2025-2027 sustainability strategy. We
+also established a Stakeholder Advisory Panel, comprising representatives from
+civil society, academia, and industry, to provide ongoing guidance and
+independent perspectives on our ESG initiatives.
+Material Topics
+Following the GRI Standards, TechNova conducted a formal materiality
+assessment in 2024 to identify the ESG topics most significant to our business
+and stakeholders. The assessment process included internal workshops, external
+stakeholder consultations, and a review of emerging trends and regulatory
+developments. The following material topics were identified as priorities for
+reporting and management: climate change and greenhouse gas emissions, energy
+efficiency and renewable energy, responsible supply chain management,
+diversity, equity, and inclusion (DEI), employee well-being and development,
+data privacy and cybersecurity, innovation and digital inclusion, business ethics
+and anti-corruption, and board oversight and accountability. Each material topic
+was evaluated based on its potential impact on TechNova’s business
+performance, reputation, and stakeholder trust. The results of the materiality
+assessment are reviewed annually and inform our ESG strategy, risk
+management, and performance measurement.
+Management Approach
+TechNova’s management approach to ESG is guided by our Sustainability Policy,
+which is approved by the Board of Directors and implemented by the Executive
+Sustainability Committee. The committee, chaired by the Chief Sustainability
+Officer, includes senior leaders from operations, human resources, legal,
+procurement, and risk management. ESG objectives are integrated into our
+corporate strategy, business planning, and performance management systems.
+Each material topic is assigned to a responsible executive, who oversees the
+development and execution of action plans, monitors progress, and reports on
+outcomes. We employ a risk-based approach to ESG management, incorporating
+scenario analysis, stress testing, and regular audits. Our Supplier Code of
+Conduct, Human Rights Policy, and Code of Business Ethics set clear
+expectations for employees, suppliers, and partners. Training on ESG topics is
+mandatory for all employees, with specialized programs for high-risk roles.
+TechNova’s ESG performance is regularly reviewed by the Board’s
+Sustainability and Ethics Committee, which meets quarterly and provides
+guidance on emerging risks and opportunities.
+Environmental Performance
+TechNova is committed to minimizing its environmental footprint and advancing
+the transition to a low-carbon economy. In 2024, our total Scope 1 and 2
+greenhouse gas emissions were 410,000 metric tons of CO2 equivalent,
+representing a 17 percent reduction from our 2023 baseline of 494,000 metric
+tons. This achievement was driven by energy efficiency measures, increased use
+of renewable energy, and process optimization across our operations. Scope 3
+emissions, primarily from our supply chain and product use, totaled 1.85 million
+metric tons of CO2 equivalent, a 6 percent reduction year-over-year. We have set
+a science-based target to achieve net-zero emissions across our value chain by
+2040.
+Renewable energy accounted for 61 percent of our global electricity consumption
+in 2024, up from 47 percent in 2023. Major facilities in the United States,
+Germany, and Japan transitioned to 100 percent renewable energy through power
+purchase agreements and on-site solar installations. Our energy intensity,
+measured as megawatt-hours per million USD revenue, decreased by 14 percent
+compared to the previous year. Water consumption across our operations was 2.8
+million cubic meters, a 9 percent reduction from 2023, achieved through water
+recycling and efficiency projects at our manufacturing sites. We diverted 74
+percent of our operational waste from landfill, with 36,000 metric tons recycled
+or reused.
+TechNova’s product stewardship program focuses on designing energy-efficient
+hardware, increasing the use of recycled materials, and promoting circularity. In
+2024, 28 percent of materials used in our products were recycled content, and 91
+percent of products met Energy Star or equivalent standards. We collected and
+responsibly recycled 18,000 metric tons of end-of-life products through our
+global take-back program. Environmental compliance was maintained across all
+jurisdictions, with no significant fines or violations reported.
+Social Performance
+TechNova’s social strategy centers on fostering an inclusive, safe, and
+empowering workplace, supporting local communities, and advancing digital
+inclusion. As of December 2024, our global workforce comprised 72,000
+employees, with 43 percent women and 29 percent from underrepresented
+minorities. Women held 38 percent of management positions and 24 percent of
+executive roles, reflecting an 8 percent increase in overall diversity representation
+compared to 2023. Our Board of Directors included 45 percent women and 36
+percent members from diverse backgrounds.
+Employee well-being and development are strategic priorities. In 2024, we
+invested USD 62 million in training and development, averaging 42 hours of
+learning per employee. Our global employee engagement survey recorded an 83
+percent participation rate, with an overall engagement score of 81 percent, up 3
+percentage points from the previous year. We expanded our flexible work
+policies, with 68 percent of employees utilizing hybrid or remote work
+arrangements. Health and safety performance remained strong, with a total
+recordable injury rate of 0.23 per 100 full-time employees, a 15 percent reduction
+from 2023.
+TechNova’s community engagement initiatives focused on digital literacy,
+STEM education, and economic empowerment. Through the TechNova
+Foundation, we supported 312 nonprofit organizations and reached 1.2 million
+beneficiaries in 2024. Our Digital Inclusion Program provided access to
+technology and training for 420,000 individuals in underserved communities
+across Africa, Asia, and Latin America. Employee volunteering totaled 138,000
+hours, with 41 percent of employees participating in at least one community
+service activity.
+Human rights are integral to our operations and supply chain. We conducted
+human rights due diligence for 97 percent of Tier 1 suppliers and provided
+training on labor rights, anti-discrimination, and grievance mechanisms. No
+substantiated cases of child labor, forced labor, or significant human rights
+violations were identified in 2024. Our Supplier Diversity Program increased
+spend with women-owned and minority-owned businesses by 21 percent year-
+over-year.
+Governance
+TechNova’s governance framework is designed to promote ethical conduct,
+accountability, and long-term value creation. The Board of Directors comprises
+11 members, 45 percent of whom are women and 36 percent from diverse ethnic
+backgrounds. The Board is led by an independent Chair and includes three
+standing committees: Audit, Compensation, and Sustainability & Ethics. In 2024,
+the Board met 11 times, with an average attendance rate of 98 percent. The
+Sustainability & Ethics Committee is responsible for overseeing ESG strategy,
+risk management, and performance, meeting quarterly to review progress and
+provide guidance.
+Executive compensation is linked to ESG performance, with 22 percent of annual
+incentives tied to sustainability targets such as emissions reduction, diversity
+representation, and data privacy. The company’s Code of Business Ethics sets out
+clear expectations for integrity, anti-corruption, and compliance, and is reviewed
+annually. In 2024, 100 percent of employees and 96 percent of suppliers
+completed mandatory ethics training. Our whistleblower hotline received 138
+reports, all of which were investigated, resulting in 17 cases of disciplinary action
+and 4 terminations for breaches of policy.
+Data privacy and cybersecurity are top priorities for TechNova. In 2024, we
+invested USD 136 million in cybersecurity infrastructure and achieved ISO/IEC
+27001 certification for all major data centers. We experienced no material data
+breaches and maintained compliance with global data protection regulations,
+including GDPR and CCPA. Our Privacy by Design framework ensures that data
+protection is embedded in all products and services.
+Risk management is integrated into our governance processes, with regular
+scenario analysis and stress testing for ESG-related risks such as climate change,
+supply chain disruptions, and regulatory changes. The company’s internal audit
+function conducted 27 ESG-related audits in 2024, with findings reported to the
+Board and management.
+Conclusions and Future Outlook
+In 2024, TechNova International made significant progress in advancing its ESG
+agenda, achieving measurable improvements in environmental performance,
+workforce diversity, employee well-being, and governance practices. Our
+achievements reflect the dedication of our employees, the support of our
+stakeholders, and the leadership of our Board and management team. However,
+we recognize that challenges remain, particularly in reducing Scope 3 emissions,
+advancing supply chain sustainability, and addressing the evolving risks
+associated with digital transformation.
+Looking ahead, TechNova is committed to accelerating its journey towards net-
+zero emissions, with interim targets of 75 percent renewable energy use and a 30
+percent reduction in Scope 3 emissions by 2030. We will expand our circular
+economy initiatives, increase the use of recycled materials in our products, and
+scale up our take-back and recycling programs. Our social priorities include
+deepening our commitment to diversity, equity, and inclusion, enhancing
+employee well-being, and expanding digital inclusion efforts to reach 2 million
+beneficiaries by 2027.
+Governance will remain a cornerstone of our ESG strategy, with continued focus
+on board diversity, ethical conduct, and robust risk management. We will enhance
+transparency through expanded ESG disclosures, third-party assurance, and
+ongoing stakeholder engagement. TechNova will continue to align its
+sustainability strategy with global frameworks such as the United Nations
+Sustainable Development Goals, the Task Force on Climate-related Financial
+Disclosures, and the Science Based Targets initiative.
+We thank our stakeholders for their trust and partnership, and we look forward to
+working together to create a more sustainable, inclusive, and resilient future. This
+report reflects our ongoing commitment to responsible business practices and our
+belief that technology can be a force for good in society and the environment.

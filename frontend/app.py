@@ -4,6 +4,7 @@ import os
 from PIL import Image
 from dotenv import load_dotenv
 import re
+import plotly.graph_objects as go
 
 load_dotenv()
 
@@ -23,6 +24,30 @@ sit.markdown("Upload your ESG report (PDF, DOCX, or TXT) to enhance its tone, st
 def clean_llm_output(text):
     text = text.replace("**", "")
     return re.sub(r"\*+", "", text)
+
+
+def gauge_chart(value: float, label: str) -> None:
+    """Display a gauge chart for a given score."""
+    fig = go.Figure(
+        go.Indicator(
+            mode="gauge+number",
+            value=value,
+            title={"text": label},
+            gauge={
+                "axis": {"range": [0, 100]},
+                "bar": {"color": "darkblue"},
+                "steps": [
+                    {"range": [0, 20], "color": "red"},
+                    {"range": [20, 40], "color": "orange"},
+                    {"range": [40, 60], "color": "yellow"},
+                    {"range": [60, 80], "color": "green"},
+                    {"range": [80, 100], "color": "blue"},
+                ],
+            },
+        )
+    )
+    fig.update_layout(width=300, height=225, margin=dict(l=20, r=20, t=40, b=0))
+    sit.plotly_chart(fig, use_container_width=False)
 
 
 if "result" not in sit.session_state:
@@ -90,11 +115,14 @@ if sit.session_state.result:
             mime="application/json"
         )
 
+    if any(score is not None for score in (gri_score, eu_csrd_score, sasb_score)):
+        sit.subheader("Compliance Scores")
+
     if gri_score is not None:
-        sit.sidebar.metric("GRI Compliance Score", f"{gri_score}%")
+        gauge_chart(gri_score, "GRI Compliance Score")
 
     if eu_csrd_score is not None:
-        sit.sidebar.metric("EU CSRD Compliance Score", f"{eu_csrd_score}%")
+        gauge_chart(eu_csrd_score, "EU CSRD Compliance Score")
 
     if sasb_score is not None:
-        sit.sidebar.metric("SASB Compliance Score", f"{sasb_score}%")
+        gauge_chart(sasb_score, "SASB Compliance Score")

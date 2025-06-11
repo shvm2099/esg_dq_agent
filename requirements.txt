@@ -44,6 +44,7 @@ regex
 requests
 spacy
 streamlit
+plotly
 tenacity==9.1.2
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2

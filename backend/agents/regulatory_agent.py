@@ -85,25 +85,71 @@ def merge_reports(gri_report: dict, eu_csrd_report: dict, sasb_report: dict) -> 
             
     return combined_report
 
+def check_keyword_compliance(text: str, keywords: list[str], tag: str) -> dict:
+    lemmas = preprocess_text(text)
+    found = []
+    missing = []
+
+    for term in keywords:
+        term_lemmas = preprocess_text(term)
+        if term_lemmas & lemmas:
+            found.append(term)
+        else:
+            missing.append(term)
+
+    score = round((len(found) / len(keywords)) * 100, 2) if keywords else 0
+
+    return {
+        "overall_score": score,
+        "detailed_report": {
+            tag: {
+                "topic": f"{tag} Key Terms",
+                "disclosures": [
+                    {
+                        "id": tag,
+                        "title": "Keyword presence",
+                        "found_data_points": found,
+                        "missing_data_points": missing,
+                        "score_percent": score,
+                    }
+                ],
+            }
+        },
+    }
+
+
 def check_all_compliance(text: str):
     gri_rules = load_rules(GRI_RULES_PATH)
     eu_csrd_rules = load_rules(EU_CSRD_RULES_PATH)
     sasb_rules = load_rules(SASB_RULES_PATH)
 
     gri_result = check_compliance(text, gri_rules)
-    eu_csrd_result = check_compliance(text, eu_csrd_rules)
-    sasb_result = check_compliance(text, sasb_rules)
 
+    eu_keywords = (
+        eu_csrd_rules.get("csrd_compliance_rules", {})
+        .get("nlp_compliance_keywords", {})
+        .get("mandatory_terms", [])
+    )
+    eu_csrd_result = check_keyword_compliance(text, eu_keywords, "EU_CSRD")
 
-    final_report = merge_reports(gri_result["detailed_report"],eu_csrd_result["detailed_report"],sasb_result["detailed_report"] )
+    sasb_keywords = (
+        sasb_rules.get("sasb_compliance_rules", {})
+        .get("nlp_compliance_keywords", {})
+        .get("mandatory_identifiers", [])
+    )
+    sasb_result = check_keyword_compliance(text, sasb_keywords, "SASB")
+
+    final_report = merge_reports(
+        gri_result["detailed_report"],
+        eu_csrd_result["detailed_report"],
+        sasb_result["detailed_report"],
+    )
 
     combined_result = {
-    
         "gri_score": gri_result["overall_score"],
         "eu_csrd_score": eu_csrd_result["overall_score"],
         "sasb_score": sasb_result["overall_score"],
-    
-        "final_report": final_report
+        "final_report": final_report,
     }
 
     return combined_result

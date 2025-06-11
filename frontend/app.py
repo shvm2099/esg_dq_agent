@@ -56,7 +56,9 @@ if sit.session_state.result:
     pdf_path = result.get("pdf_path")
     metadata_path = result.get("metadata_path")
     compliance_path = result.get("compliance_path")
-    compliance_score = result.get("overall_score")
+    gri_score = result.get("gri_score")
+    eu_csrd_score = result.get("eu_csrd_score")
+    sasb_score = result.get("sasb_score")
 
     if pdf_path:
         pdf_url = f"{BASE_URL}/pdfs/{pdf_path}"
@@ -88,5 +90,11 @@ if sit.session_state.result:
             mime="application/json"
         )
 
-    if compliance_score is not None:
-        sit.sidebar.metric("GRI Compliance Score", f"{compliance_score}%")
+    if gri_score is not None:
+        sit.sidebar.metric("GRI Compliance Score", f"{gri_score}%")
+
+    if eu_csrd_score is not None:
+        sit.sidebar.metric("EU CSRD Compliance Score", f"{eu_csrd_score}%")
+
+    if sasb_score is not None:
+        sit.sidebar.metric("SASB Compliance Score", f"{sasb_score}%")

@@ -56,7 +56,9 @@ if sit.session_state.result:
     pdf_path = result.get("pdf_path")
     metadata_path = result.get("metadata_path")
     compliance_path = result.get("compliance_path")
-    compliance_score = result.get("overall_score")
+    gri_score = result.get("gri_score")
+    eu_csrd_score = result.get("eu_csrd_score")
+    sasb_score = result.get("sasb_score")
 
     if pdf_path:
         pdf_url = f"{BASE_URL}/pdfs/{pdf_path}"
@@ -88,5 +90,28 @@ if sit.session_state.result:
             mime="application/json"
         )
 
-    if compliance_score is not None:
-        sit.sidebar.metric("GRI Compliance Score", f"{compliance_score}%")
+    def score_color(score):
+        if score >= 75:
+            return "green"
+        elif score >= 50:
+            return "yellow"
+        elif score >= 25:
+            return "orange"
+        return "red"
+
+    def display_score(label: str, score: float):
+        if score is None:
+            return
+        color = score_color(score)
+        bar_html = f"""
+        <div style='margin:10px 0;'>
+            <div style='font-weight:bold;margin-bottom:4px;'>{{label}}: {{score}}%</div>
+            <div style='background-color:#eee;border-radius:10px;height:20px;overflow:hidden;'>
+                <div style='background-color:{{color}};width:{{score}}%;height:100%;border-radius:10px;'></div>
+            </div>
+        </div>""".format(label=label, score=score, color=color)
+        sit.markdown(bar_html, unsafe_allow_html=True)
+
+    display_score("GRI Compliance Score", gri_score)
+    display_score("EU CSRD Compliance Score", eu_csrd_score)
+    display_score("SASB Compliance Score", sasb_score)

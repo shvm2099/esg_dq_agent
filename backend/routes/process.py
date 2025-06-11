@@ -19,5 +19,5 @@ async def process_file(file: UploadFile = File(...)):
         "pdf_path": pdf_filename,
         "metadata_path": metadata_filename,
         "compliance_path": compliance_filename,
-        "overall_score": overall_score
+        "overall_score": overall_score 
     }

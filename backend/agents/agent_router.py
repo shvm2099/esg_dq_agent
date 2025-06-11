@@ -1,8 +1,3 @@
-# tone_agent            calibrate_tone
-# sructure_validator    validate_structure
-# metadata_agent        extract_metadata
-# regulatory_agent      load_gri_rules   check_gri_compliance   save_compliance_report
-
 from backend.agents.tone_agent import calibrate_tone
 from backend.agents.structure_validator import validate_structure
 from backend.agents.metadata_agent import extract_metadata

@@ -1,0 +1,158 @@
+{
+  "csrd_compliance_rules": {
+    "metadata": {
+      "version": "2025.1",
+      "last_updated": "2025-06-10",
+      "directive": "Corporate Sustainability Reporting Directive (CSRD)",
+      "legal_basis": "EU Directive 2022/2464",
+      "effective_dates": {
+        "wave_1": "2024-01-01",
+        "wave_2": "2027-01-01",
+        "wave_3": "2028-01-01"
+      }
+    },
+    "scope_criteria": {
+      "current_rules": {
+        "large_companies": {
+          "employee_threshold": 250,
+          "turnover_threshold_eur": 40000000,
+          "balance_sheet_threshold_eur": 20000000,
+          "criteria_requirement": "meet_two_of_three"
+        },
+        "listed_smes": {
+          "employee_threshold": 10,
+          "applies_to": "listed_small_medium_enterprises"
+        }
+      },
+      "proposed_changes_2025": {
+        "simplified_scope": {
+          "employee_threshold": 1000,
+          "description": "Only companies with more than 1000 employees",
+          "rationale": "Focus on companies with biggest environmental and social impacts"
+        },
+        "taxonomy_reporting": {
+          "voluntary_threshold_eur": 450000000,
+          "rule": "Companies below EUR 450M turnover can report taxonomy voluntarily"
+        }
+      }
+    },
+    "reporting_standards": {
+      "esrs_requirements": {
+        "mandatory_standards": {
+          "E1_climate_change": {
+            "materiality": "always_required",
+            "scope": "greenhouse_gas_emissions_including_scope_3",
+            "climate_risk_assessment": "mandatory",
+            "mitigation_plans": "required"
+          }
+        },
+        "conditional_standards": {
+          "environmental": ["E2", "E3", "E4", "E5"],
+          "social": ["S1", "S2", "S3", "S4"],
+          "governance": ["G1"],
+          "materiality_requirement": "double_materiality_assessment"
+        }
+      },
+      "double_materiality": {
+        "definition": "Impact of ESG topics on people/environment AND on business financial success",
+        "assessment_requirements": {
+          "inward_impact": "How sustainability issues affect the business",
+          "outward_impact": "How business activities affect society and environment"
+        }
+      }
+    },
+    "compliance_rules": {
+      "data_collection": {
+        "start_date": "2024-01-01",
+        "reporting_year": "following_year",
+        "preparation_time": "minimum_12_months"
+      },
+      "reporting_timeline": {
+        "wave_1_companies": {
+          "data_collection_start": "2024",
+          "first_report_due": "2025",
+          "description": "Companies previously under NFRD"
+        },
+        "wave_2_companies": {
+          "data_collection_start": "2026",
+          "first_report_due": "2027",
+          "description": "Large companies not in wave 1"
+        },
+        "wave_3_companies": {
+          "data_collection_start": "2027",
+          "first_report_due": "2028",
+          "description": "Listed SMEs and specific financial entities"
+        }
+      }
+    },
+    "validation_rules": {
+      "mandatory_disclosures": {
+        "cross_cutting": {
+          "required_for": "all_companies",
+          "elements": [
+            "general_information",
+            "strategy",
+            "governance",
+            "materiality_assessment"
+          ]
+        },
+        "climate_reporting": {
+          "standard": "E1",
+          "exemption": "none",
+          "justification_required": "if_deemed_non_material"
+        }
+      },
+      "assurance_requirements": {
+        "current": "limited_assurance",
+        "future": "reasonable_assurance_removed_in_2025_proposal"
+      }
+    },
+    "exemptions_and_simplifications": {
+      "sme_protections": {
+        "voluntary_standard": "VSME_based",
+        "value_chain_shield": "Limits information requests from larger companies",
+        "scope": "Companies with up to 1000 employees"
+      },
+      "sector_specific": {
+        "status": "proposed_for_removal",
+        "effective_date": "pending_approval"
+      }
+    },
+    "penalties_and_enforcement": {
+      "member_state_responsibility": true,
+      "transposition_deadline": "2025-12-31",
+      "enforcement_varies_by_country": true
+    },
+    "nlp_compliance_keywords": {
+      "mandatory_terms": [
+        "double materiality assessment",
+        "greenhouse gas emissions",
+        "scope 3 emissions",
+        "climate risk assessment",
+        "sustainability performance",
+        "ESG reporting",
+        "ESRS standards"
+      ],
+      "compliance_indicators": [
+        "material sustainability matters",
+        "environmental impact",
+        "social impact",
+        "governance practices",
+        "risk management",
+        "opportunity identification"
+      ],
+      "red_flags": [
+        "no climate reporting",
+        "missing materiality assessment",
+        "incomplete scope 3 data",
+        "no double materiality",
+        "missing ESRS compliance"
+      ]
+    },
+    "geographic_scope": {
+      "primary": "EU_companies",
+      "secondary": "Non_EU_companies_with_EU_operations",
+      "subsidiaries": "EU_subsidiaries_of_non_EU_companies"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "sasb_compliance_rules": {
+    "metadata": {
+      "version": "2025.1",
+      "last_updated": "2025-06-10",
+      "framework": "Sustainability Accounting Standards Board (SASB)",
+      "current_authority": "International Sustainability Standards Board (ISSB)",
+      "transition_date": "2022-08-01",
+      "total_industries": 77,
+      "reporting_voluntary": true
+    },
+    "framework_principles": {
+      "core_focus": {
+        "audience": "investors_and_financial_stakeholders",
+        "materiality_type": "financial_materiality",
+        "approach": "industry_specific",
+        "value_focus": "enterprise_value_creation"
+      },
+      "key_differentiators": [
+        "investor_focused_audience",
+        "industry_specific_standards",
+        "financial_materiality_emphasis",
+        "enterprise_value_impact"
+      ]
+    },
+    "industry_classification": {
+      "system": "Sustainable Industry Classification System (SICS)",
+      "total_sectors": 77,
+      "sector_categories": {
+        "consumer_goods": ["Apparel_Accessories_Footwear", "Food_Beverages"],
+        "extractives_minerals": ["Oil_Gas_Consumable_Fuels", "Metals_Mining"],
+        "financials": ["Commercial_Banks", "Insurance"],
+        "health_care": ["Biotechnology_Pharmaceuticals", "Health_Care_Equipment"],
+        "infrastructure": ["Electric_Utilities", "Airlines"],
+        "renewable_resources": ["Forestry_Management", "Pulp_Paper_Products"],
+        "resource_transformation": ["Chemicals", "Steel"],
+        "services": ["Professional_Services", "Media_Entertainment"],
+        "technology_communications": ["Software_IT_Services", "Internet_Media"],
+        "transportation": ["Airlines", "Marine_Transportation"]
+      }
+    },
+    "disclosure_framework": {
+      "sustainability_dimensions": {
+        "environment": {
+          "topics": ["GHG_emissions", "air_quality", "energy_management", "water_waste_management", "waste_hazardous_materials"],
+          "applicability": "industry_specific"
+        },
+        "social_capital": {
+          "topics": ["human_rights_community_relations", "customer_privacy", "data_security", "access_affordability"],
+          "applicability": "stakeholder_impact_based"
+        },
+        "human_capital": {
+          "topics": ["labor_practices", "employee_health_safety", "employee_engagement_diversity_inclusion"],
+          "applicability": "workforce_dependent"
+        },
+        "business_model_innovation": {
+          "topics": ["product_design_lifecycle_management", "business_model_resilience", "supply_chain_management", "materials_sourcing_efficiency"],
+          "applicability": "business_model_dependent"
+        },
+        "leadership_governance": {
+          "topics": ["business_ethics", "competitive_behavior", "management_legal_regulatory_environment", "critical_incident_risk_management", "systemic_risk_management"],
+          "applicability": "governance_structure_dependent"
+        }
+      },
+      "materiality_assessment": {
+        "definition": "ESG issues that could substantially alter risk profile or influence capital allocation",
+        "criteria": {
+          "evidence_based": "External research and data validation",
+          "industry_specific": "Tailored to sector characteristics",
+          "financially_material": "Impact on enterprise value creation",
+          "investor_relevant": "Decision-useful for capital providers"
+        }
+      }
+    },
+    "reporting_requirements": {
+      "disclosure_topics": {
+        "per_industry": "6_average_topics",
+        "accounting_metrics": "13_average_metrics",
+        "customization": "Companies can omit or add relevant topics"
+      },
+      "reporting_mechanisms": {
+        "sec_filings": "10-K, 10-Q, 8-K forms",
+        "sustainability_reports": "Standalone or integrated reports",
+        "annual_reports": "Integrated with financial reporting",
+        "investor_communications": "Earnings calls, investor presentations"
+      },
+      "frequency": {
+        "recommended": "annual",
+        "alignment": "fiscal_year_basis",
+        "timing": "concurrent_with_financial_reporting"
+      }
+    },
+    "compliance_validation_rules": {
+      "industry_identification": {
+        "step_1": "Identify primary business activities",
+        "step_2": "Map to SICS classification",
+        "step_3": "Select applicable industry standard",
+        "multi_industry": "Use all relevant standards if operating across sectors"
+      },
+      "materiality_assessment_requirements": {
+        "financial_impact": "Must demonstrate connection to financial performance",
+        "stakeholder_input": "Consider investor and stakeholder feedback",
+        "evidence_basis": "Support with external research and data",
+        "industry_context": "Align with sector-specific risks and opportunities"
+      },
+      "disclosure_completeness": {
+        "required_elements": [
+          "accounting_metrics",
+          "activity_metrics",
+          "disclosure_topics",
+          "technical_protocols"
+        ],
+        "optional_elements": [
+          "additional_material_topics",
+          "forward_looking_statements",
+          "scenario_analysis"
+        ]
+      }
+    },
+    "industry_specific_examples": {
+      "apparel_accessories_footwear": {
+        "code": "CG-AA",
+        "key_topics": [
+          "management_chemicals_apparel",
+          "environmental_impacts_supply_chain",
+          "labor_conditions_supply_chain",
+          "raw_materials_sourcing"
+        ],
+        "mandatory_metrics": [
+          "discussion_integration_environmental_social_considerations",
+          "priority_raw_materials_sourcing",
+          "supplier_social_environmental_risk_assessment"
+        ]
+      },
+      "airlines": {
+        "code": "TR-AL",
+        "key_topics": [
+          "greenhouse_gas_emissions",
+          "labor_relations",
+          "competitive_behavior",
+          "accident_safety_management"
+        ],
+        "mandatory_metrics": [
+          "scope_1_emissions",
+          "fuel_consumed",
+          "available_seat_kilometers"
+        ]
+      }
+    },
+    "integration_requirements": {
+      "ifrs_sustainability_standards": {
+        "s1_general_requirements": "SASB supports application",
+        "s2_climate_disclosures": "SASB climate metrics referenced",
+        "relationship": "complementary_framework"
+      },
+      "regulatory_alignment": {
+        "eu_nfrd": "Addresses disclosure obligations",
+        "sec_climate_rules": "Supports climate risk disclosure",
+        "tcfd": "Complementary climate framework"
+      }
+    },
+    "nlp_compliance_keywords": {
+      "mandatory_identifiers": [
+        "financially material",
+        "enterprise value",
+        "industry-specific sustainability",
+        "SASB standard",
+        "accounting metrics",
+        "disclosure topics"
+      ],
+      "industry_validation_terms": [
+        "SICS classification",
+        "sector-specific",
+        "material ESG issues",
+        "investor decision-making",
+        "financial performance impact"
+      ],
+      "compliance_indicators": [
+        "sustainability accounting",
+        "ESG disclosure",
+        "materiality assessment",
+        "stakeholder engagement",
+        "risk and opportunity identification"
+      ],
+      "red_flags": [
+        "no industry identification",
+        "missing materiality assessment",
+        "generic ESG reporting",
+        "no financial materiality connection",
+        "incomplete accounting metrics"
+      ]
+    },
+    "validation_checklist": {
+      "pre_reporting": {
+        "industry_standard_identified": "boolean",
+        "materiality_assessment_completed": "boolean",
+        "stakeholder_engagement_conducted": "boolean",
+        "data_collection_systems_established": "boolean"
+      },
+      "reporting_phase": {
+        "all_material_topics_addressed": "boolean",
+        "accounting_metrics_complete": "boolean",
+        "activity_metrics_included": "boolean",
+        "technical_protocols_followed": "boolean"
+      },
+      "post_reporting": {
+        "internal_review_completed": "boolean",
+        "third_party_verification_considered": "boolean",
+        "stakeholder_communication_planned": "boolean",
+        "continuous_improvement_identified": "boolean"
+      }
+    },
+    "enforcement_and_adoption": {
+      "regulatory_status": "voluntary_but_investor_expected",
+      "major_investor_requirements": [
+        "BlackRock",
+        "Vanguard", 
+        "State_Street"
+      ],
+      "market_adoption": "growing_investor_demand",
+      "geographic_scope": "global_applicability"
+    }
+  }
+}

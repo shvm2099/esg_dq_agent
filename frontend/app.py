@@ -90,11 +90,17 @@ if sit.session_state.result:
             mime="application/json"
         )
 
+    if any(score is not None for score in (gri_score, eu_csrd_score, sasb_score)):
+        sit.subheader("Compliance Scores")
+
     if gri_score is not None:
-        sit.sidebar.metric("GRI Compliance Score", f"{gri_score}%")
+        sit.write(f"GRI Compliance Score: {gri_score}%")
+        sit.progress(gri_score)
 
     if eu_csrd_score is not None:
-        sit.sidebar.metric("EU CSRD Compliance Score", f"{eu_csrd_score}%")
+        sit.write(f"EU CSRD Compliance Score: {eu_csrd_score}%")
+        sit.progress(eu_csrd_score)
 
     if sasb_score is not None:
-        sit.sidebar.metric("SASB Compliance Score", f"{sasb_score}%")
+        sit.write(f"SASB Compliance Score: {sasb_score}%")
+        sit.progress(sasb_score)

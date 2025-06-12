@@ -6,7 +6,9 @@ output.pdf
 metadata_tags.txt
 backend/__pycache__
 backend/route/__pycache__
+backend/agents/__pycache__
 .GIT
 **/.DS_Store
 gen_ref.py
 ref.pdf
+__pycache__/

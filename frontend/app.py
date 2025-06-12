@@ -67,7 +67,7 @@ def gauge_chart(value: float, label: str) -> None:
         )
     )
     fig.update_layout(width=300, height=225, margin=dict(l=20, r=20, t=40, b=0))
-    sit.plotly_chart(fig, use_container_width=False)
+    sit.sidebar.plotly_chart(fig, use_container_width=False)
 if sit.session_state.result:
     result = sit.session_state.result
     processed_text = clean_llm_output(result.get("processed_text", "[No output returned]"))
@@ -111,16 +111,16 @@ if sit.session_state.result:
         )
 
     if any(score is not None for score in (gri_score, eu_csrd_score, sasb_score)):
-        sit.subheader("Compliance Scores")
+        sit.sidebar.subheader("Compliance Scores")
 
     if gri_score is not None:
-        sit.write(f"GRI Compliance Score: {gri_score}%")
+        sit.sidebar.write(f"GRI Compliance Score: {gri_score}%")
         gauge_chart(gri_score, "GRI Compliance Score")
 
     if eu_csrd_score is not None:
-        sit.write(f"EU CSRD Compliance Score: {eu_csrd_score}%")
+        sit.sidebar.write(f"EU CSRD Compliance Score: {eu_csrd_score}%")
         gauge_chart(eu_csrd_score, "EU CSRD Compliance Score")
 
     if sasb_score is not None:
-        sit.write(f"SASB Compliance Score: {sasb_score}%")
+        sit.sidebar.write(f"SASB Compliance Score: {sasb_score}%")
         gauge_chart(sasb_score, "SASB Compliance Score")

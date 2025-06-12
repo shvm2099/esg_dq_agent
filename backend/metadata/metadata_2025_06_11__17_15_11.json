@@ -1,0 +1,514 @@
+{
+  "paragraphs": [
+    {
+      "paragraph_index": 0,
+      "text": "ESG Report – Company_001",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6947889924049377
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.5930707454681396
+        },
+        {
+          "label": "energy transition",
+          "score": 0.5098793506622314
+        },
+        {
+          "label": "environmental",
+          "score": 0.4920492470264435
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.48616111278533936
+        },
+        {
+          "label": "social",
+          "score": 0.46126025915145874
+        },
+        {
+          "label": "human rights",
+          "score": 0.45722395181655884
+        },
+        {
+          "label": "governance",
+          "score": 0.4344898462295532
+        },
+        {
+          "label": "data privacy",
+          "score": 0.43241336941719055
+        }
+      ]
+    },
+    {
+      "paragraph_index": 1,
+      "text": "Industry: Transportation\nCountry: USA\nReporting Period: April 2025",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.588111162185669
+        },
+        {
+          "label": "client-facing",
+          "score": 0.42689749598503113
+        }
+      ]
+    },
+    {
+      "paragraph_index": 2,
+      "text": "Executive Summary",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.6804086565971375
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6775894165039062
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.6312397122383118
+        },
+        {
+          "label": "human rights",
+          "score": 0.5376707911491394
+        },
+        {
+          "label": "environmental",
+          "score": 0.4938734173774719
+        },
+        {
+          "label": "social",
+          "score": 0.4869687557220459
+        },
+        {
+          "label": "data privacy",
+          "score": 0.47662195563316345
+        },
+        {
+          "label": "carbon emissions",
+          "score": 0.4344784617424011
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4239867627620697
+        },
+        {
+          "label": "energy transition",
+          "score": 0.4025627672672272
+        }
+      ]
+    },
+    {
+      "paragraph_index": 3,
+      "text": "Company_001’s ESG report for April 2025 details our environmental, social, and governance performance, aligning with the Global Reporting Initiative (GRI) Standards.  We achieved a 22% waste recycling rate, maintained a zero workplace incident record, and boast an employee satisfaction score of 80.67.  Our board comprises 64.44% independent directors, ensuring robust oversight. While our Scope 3 emissions assessment is ongoing, our direct GHG emissions totaled 114.9 metric tons, and we utilize renewable energy for 20.92% of our needs. We are committed to continuous improvement in all ESG areas.",
+      "predicted_tags": [
+        {
+          "label": "carbon emissions",
+          "score": 0.9979106187820435
+        },
+        {
+          "label": "governance",
+          "score": 0.9882643222808838
+        },
+        {
+          "label": "environmental",
+          "score": 0.9837898015975952
+        },
+        {
+          "label": "energy transition",
+          "score": 0.9664266705513
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8954477310180664
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.8256845474243164
+        },
+        {
+          "label": "client-facing",
+          "score": 0.6210694313049316
+        },
+        {
+          "label": "data privacy",
+          "score": 0.5835425853729248
+        },
+        {
+          "label": "social",
+          "score": 0.5652384161949158
+        },
+        {
+          "label": "human rights",
+          "score": 0.5582303404808044
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.5169933438301086
+        }
+      ]
+    },
+    {
+      "paragraph_index": 4,
+      "text": "Organizational Profile",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6455955505371094
+        },
+        {
+          "label": "governance",
+          "score": 0.5636575222015381
+        },
+        {
+          "label": "social",
+          "score": 0.508088231086731
+        }
+      ]
+    },
+    {
+      "paragraph_index": 5,
+      "text": "Company_001 is a transportation company operating in the USA.  Our operations encompass logistics and vehicle maintenance, with a commitment to sustainable practices and responsible stakeholder engagement. This report covers our ESG performance during the period of April 2025, providing a transparent and comprehensive overview of our achievements and ongoing initiatives.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9972794651985168
+        },
+        {
+          "label": "supply chain",
+          "score": 0.6171311736106873
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.6008507013320923
+        },
+        {
+          "label": "client-facing",
+          "score": 0.5261536836624146
+        }
+      ]
+    },
+    {
+      "paragraph_index": 6,
+      "text": "Stakeholder Engagement",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.8969739079475403
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.859021008014679
+        },
+        {
+          "label": "human rights",
+          "score": 0.6282370686531067
+        },
+        {
+          "label": "social",
+          "score": 0.5178327560424805
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4049985408782959
+        }
+      ]
+    },
+    {
+      "paragraph_index": 7,
+      "text": "Company_001 prioritizes ongoing dialogue with various stakeholders, including employees, customers, investors, and the wider community.  Quarterly anonymous employee surveys inform our employee well-being initiatives, while regular communications keep stakeholders updated on our ESG progress.  Our commitment to transparency underscores our dedication to responsible business conduct.",
+      "predicted_tags": [
+        {
+          "label": "client-facing",
+          "score": 0.5475533604621887
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.536939799785614
+        },
+        {
+          "label": "governance",
+          "score": 0.49525225162506104
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4904736578464508
+        }
+      ]
+    },
+    {
+      "paragraph_index": 8,
+      "text": "Material Topics",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6284141540527344
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.48016372323036194
+        },
+        {
+          "label": "human rights",
+          "score": 0.4377612769603729
+        }
+      ]
+    },
+    {
+      "paragraph_index": 9,
+      "text": "Key material ESG topics for Company_001 include greenhouse gas emissions, resource management (water and waste), occupational health and safety, employee well-being, corporate governance, and diversity, equity, and inclusion (DEI).  These topics were identified through a materiality assessment considering stakeholder feedback, industry best practices, and regulatory requirements.",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.9966098666191101
+        },
+        {
+          "label": "governance",
+          "score": 0.7284144163131714
+        }
+      ]
+    },
+    {
+      "paragraph_index": 10,
+      "text": "Management Approach",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9990712404251099
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6185525059700012
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.6040440201759338
+        },
+        {
+          "label": "environmental",
+          "score": 0.4239102900028229
+        }
+      ]
+    },
+    {
+      "paragraph_index": 11,
+      "text": "Company_001 employs a comprehensive ESG management system, integrating ESG considerations into our strategic planning and operational processes.  This includes setting targets, implementing initiatives, monitoring performance, and reporting transparently on our progress.  Regular internal audits and management reviews ensure the effectiveness of our ESG programs.",
+      "predicted_tags": [
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.895982563495636
+        },
+        {
+          "label": "governance",
+          "score": 0.8845331072807312
+        },
+        {
+          "label": "client-facing",
+          "score": 0.43809181451797485
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.4141148030757904
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.41402438282966614
+        }
+      ]
+    },
+    {
+      "paragraph_index": 12,
+      "text": "Environmental Performance",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.9833491444587708
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.7387987375259399
+        }
+      ]
+    },
+    {
+      "paragraph_index": 13,
+      "text": "Company_001 reported total direct greenhouse gas (GHG) emissions of 114.9 metric tons in April 2025, encompassing Scope 1 emissions from fuel combustion. Indirect energy-related GHG emissions (Scope 2) from electricity consumption totaled 47,926.04 kWh.  An assessment of Scope 3 emissions is underway.  Currently, 20.92% of our energy needs are met by renewable sources, with a strategic initiative underway to increase this proportion by 2026. Total water consumption was 332,384.43 liters, and waste generation was 1,456.91 kg, with a 22% recycling rate. Air quality monitoring revealed a moderate AQI of 48.72, remaining within safe operational parameters.",
+      "predicted_tags": []
+    },
+    {
+      "paragraph_index": 14,
+      "text": "Social Performance",
+      "predicted_tags": [
+        {
+          "label": "social",
+          "score": 0.98496013879776
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8549191355705261
+        },
+        {
+          "label": "governance",
+          "score": 0.55292809009552
+        },
+        {
+          "label": "human rights",
+          "score": 0.4249284863471985
+        }
+      ]
+    },
+    {
+      "paragraph_index": 15,
+      "text": "Company_001 maintains a robust occupational health and safety management system, resulting in zero reported workplace incidents.  Average employee heart rate (sensor-monitored) was 90.79 bpm, and employees received 9.36 hours of training per employee.  Employee satisfaction registered at 80.67, reflecting our commitment to employee well-being and upskilling initiatives, including mental health support.  Our Diversity Index stands at 0.85, demonstrating representation across various demographics. Proactive recruitment and development programs further enhance inclusivity.",
+      "predicted_tags": []
+    },
+    {
+      "paragraph_index": 16,
+      "text": "Governance",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9998160004615784
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.7621018290519714
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6931673884391785
+        },
+        {
+          "label": "human rights",
+          "score": 0.6106706857681274
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4493069350719452
+        },
+        {
+          "label": "social",
+          "score": 0.4416292607784271
+        }
+      ]
+    },
+    {
+      "paragraph_index": 17,
+      "text": "The Company_001 board of directors comprises 64.44% independent directors.  A comprehensive code of ethics, reinforced through regular training, emphasizes transparency, anti-corruption measures, and effective whistleblowing mechanisms.  Two compliance alerts were identified and promptly remediated during the reporting period.  Three audits were conducted, exceeding regulatory minimum requirements, resulting in a data transparency score of 98.8 out of 100.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.8459948897361755
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5404077172279358
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4821133613586426
+        }
+      ]
+    },
+    {
+      "paragraph_index": 18,
+      "text": "Conclusions and Future Outlook",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5673678517341614
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.542307436466217
+        },
+        {
+          "label": "social",
+          "score": 0.4900452196598053
+        }
+      ]
+    },
+    {
+      "paragraph_index": 19,
+      "text": "Company_001 has made significant progress in its ESG performance throughout the reporting period.  We remain committed to improving our environmental footprint through renewable energy adoption and waste reduction initiatives.  We will continue to invest in employee well-being and foster a diverse and inclusive workplace.  We are strengthening our governance structures and maintaining high standards of transparency and accountability.  Future goals include refining our Scope 3 emissions assessment, further enhancing our diversity initiatives, and developing ambitious new targets aligned with emerging sustainability trends.",
+      "predicted_tags": [
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.9895027875900269
+        },
+        {
+          "label": "governance",
+          "score": 0.9857588410377502
+        },
+        {
+          "label": "environmental",
+          "score": 0.9670937061309814
+        },
+        {
+          "label": "energy transition",
+          "score": 0.6405438184738159
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5965254902839661
+        },
+        {
+          "label": "client-facing",
+          "score": 0.46697235107421875
+        },
+        {
+          "label": "social",
+          "score": 0.412101149559021
+        }
+      ]
+    },
+    {
+      "paragraph_index": 20,
+      "text": "Appendices",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6663596034049988
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.5967897772789001
+        },
+        {
+          "label": "human rights",
+          "score": 0.5184106826782227
+        },
+        {
+          "label": "social",
+          "score": 0.4795151352882385
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.477881520986557
+        },
+        {
+          "label": "energy transition",
+          "score": 0.44890275597572327
+        },
+        {
+          "label": "environmental",
+          "score": 0.4364423453807831
+        }
+      ]
+    },
+    {
+      "paragraph_index": 21,
+      "text": "(This section would contain detailed data tables, charts, and methodological notes supporting the information presented in the report.  For example:  Detailed breakdown of Scope 1 and 2 emissions, water consumption data by facility, waste generation and recycling data by material type, employee satisfaction survey results, diversity data breakdown by demographic, audit reports summaries etc.)",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.5479878187179565
+        }
+      ]
+    }
+  ]
+}

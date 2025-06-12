@@ -4,6 +4,7 @@ import os
 from PIL import Image
 from dotenv import load_dotenv
 import re
+import plotly.graph_objects as go
 
 load_dotenv()
 
@@ -47,7 +48,26 @@ if sit.button("Start") and uploaded_file:
         except requests.exceptions.RequestException as e:
             sit.error(f"Connection error: {e}")
 
-
+def gauge_chart(value: float, label: str) -> None:
+    fig = go.Figure(
+        go.Indicator(
+            mode="gauge+number",
+            value=value,
+            title={"text": label},
+            gauge={
+                "axis": {"range": [0, 100]},
+                "bar": {"color": "blue"},
+                "steps": [
+                    {"range": [0, 50], "color": "red"},
+                    {"range": [40, 60], "color": "orange"},
+                    {"range": [60, 80], "color": "yellow"},
+                    {"range": [80, 100], "color": "green"},
+                ],
+            },
+        )
+    )
+    fig.update_layout(width=300, height=225, margin=dict(l=20, r=20, t=40, b=0))
+    sit.plotly_chart(fig, use_container_width=False)
 if sit.session_state.result:
     result = sit.session_state.result
     processed_text = clean_llm_output(result.get("processed_text", "[No output returned]"))
@@ -95,12 +115,12 @@ if sit.session_state.result:
 
     if gri_score is not None:
         sit.write(f"GRI Compliance Score: {gri_score}%")
-        sit.progress(gri_score)
+        gauge_chart(gri_score, "GRI Compliance Score")
 
     if eu_csrd_score is not None:
         sit.write(f"EU CSRD Compliance Score: {eu_csrd_score}%")
-        sit.progress(eu_csrd_score)
+        gauge_chart(eu_csrd_score, "EU CSRD Compliance Score")
 
     if sasb_score is not None:
         sit.write(f"SASB Compliance Score: {sasb_score}%")
-        sit.progress(sasb_score)
+        gauge_chart(sasb_score, "SASB Compliance Score")

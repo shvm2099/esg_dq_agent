@@ -1,0 +1,867 @@
+{
+  "paragraphs": [
+    {
+      "paragraph_index": 0,
+      "text": "Executive Summary",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.6804086565971375
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6775894165039062
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.6312397122383118
+        },
+        {
+          "label": "human rights",
+          "score": 0.5376707911491394
+        },
+        {
+          "label": "environmental",
+          "score": 0.4938734173774719
+        },
+        {
+          "label": "social",
+          "score": 0.4869687557220459
+        },
+        {
+          "label": "data privacy",
+          "score": 0.47662195563316345
+        },
+        {
+          "label": "carbon emissions",
+          "score": 0.4344784617424011
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4239867627620697
+        },
+        {
+          "label": "energy transition",
+          "score": 0.4025627672672272
+        }
+      ]
+    },
+    {
+      "paragraph_index": 1,
+      "text": "Intel Corporation remains committed to integrating Environmental, Social, and Governance (ESG) principles into its core business strategy.  During fiscal year 2023, the company achieved significant progress in reducing its carbon footprint, enhancing workforce diversity, and strengthening corporate governance. This report details the organization's achievements, challenges, and future goals, aligning with global sustainability standards such as the Global Reporting Initiative (GRI), Sustainability Accounting Standards Board (SASB), and Task Force on Climate-related Financial Disclosures (TCFD) frameworks.  The report highlights key accomplishments, including a 20% reduction in Scope 1 and 2 emissions, a 15% reduction in water usage, and a 42% increase in women in leadership positions.  Further details on these and other achievements are provided in the subsequent sections.",
+      "predicted_tags": [
+        {
+          "label": "carbon emissions",
+          "score": 0.9598764181137085
+        },
+        {
+          "label": "governance",
+          "score": 0.9128614068031311
+        },
+        {
+          "label": "environmental",
+          "score": 0.9025617837905884
+        },
+        {
+          "label": "social",
+          "score": 0.8975868225097656
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8684988617897034
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.8636132478713989
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.8620411157608032
+        },
+        {
+          "label": "energy transition",
+          "score": 0.8600017428398132
+        },
+        {
+          "label": "human rights",
+          "score": 0.8551858067512512
+        },
+        {
+          "label": "supply chain",
+          "score": 0.8545852303504944
+        },
+        {
+          "label": "client-facing",
+          "score": 0.8520214557647705
+        },
+        {
+          "label": "public",
+          "score": 0.8093999028205872
+        },
+        {
+          "label": "data privacy",
+          "score": 0.8021748065948486
+        },
+        {
+          "label": "internal",
+          "score": 0.7520627975463867
+        }
+      ]
+    },
+    {
+      "paragraph_index": 2,
+      "text": "Organizational Profile",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6455955505371094
+        },
+        {
+          "label": "governance",
+          "score": 0.5636575222015381
+        },
+        {
+          "label": "social",
+          "score": 0.508088231086731
+        }
+      ]
+    },
+    {
+      "paragraph_index": 3,
+      "text": "Intel Corporation is a global technology leader, and its operations span multiple countries and regions.  The company recognizes its responsibility to operate sustainably and ethically, impacting both its internal workforce and the broader communities it serves.  This commitment is reflected in its comprehensive ESG strategy, which aims to create long-term value for all stakeholders.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.5797348618507385
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.5131521224975586
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.4888318181037903
+        }
+      ]
+    },
+    {
+      "paragraph_index": 4,
+      "text": "Stakeholder Engagement",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.8969739079475403
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.859021008014679
+        },
+        {
+          "label": "human rights",
+          "score": 0.6282370686531067
+        },
+        {
+          "label": "social",
+          "score": 0.5178327560424805
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4049985408782959
+        }
+      ]
+    },
+    {
+      "paragraph_index": 5,
+      "text": "Intel engages with a diverse range of stakeholders, including employees, investors, customers, suppliers, and communities, to understand their priorities and expectations concerning ESG performance. This engagement informs the company's materiality assessment and guides the development and implementation of its ESG strategy. Intel’s communication channels include regular reporting aligned with GRI and SASB standards, providing transparency on its progress toward established targets.  This ongoing dialogue ensures that Intel's ESG efforts remain relevant and responsive to stakeholder concerns.",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.9738123416900635
+        },
+        {
+          "label": "governance",
+          "score": 0.9594821333885193
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.7794942855834961
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.7300039529800415
+        },
+        {
+          "label": "client-facing",
+          "score": 0.6841514706611633
+        },
+        {
+          "label": "social",
+          "score": 0.5189252495765686
+        },
+        {
+          "label": "environmental",
+          "score": 0.4855556786060333
+        }
+      ]
+    },
+    {
+      "paragraph_index": 6,
+      "text": "Material Topics",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6284141540527344
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.48016372323036194
+        },
+        {
+          "label": "human rights",
+          "score": 0.4377612769603729
+        }
+      ]
+    },
+    {
+      "paragraph_index": 7,
+      "text": "Intel's material ESG topics are determined through a comprehensive assessment process that considers the perspectives of various stakeholders and the company's business operations.  Key material issues identified include climate change (Greenhouse Gas Emissions), resource management, workforce diversity and inclusion, ethical business practices, and supply chain sustainability.  These topics form the basis of this report and the company's ongoing ESG initiatives.",
+      "predicted_tags": [
+        {
+          "label": "supply chain",
+          "score": 0.9339528679847717
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.577085554599762
+        },
+        {
+          "label": "energy transition",
+          "score": 0.44643890857696533
+        },
+        {
+          "label": "governance",
+          "score": 0.4221838712692261
+        },
+        {
+          "label": "client-facing",
+          "score": 0.41421738266944885
+        }
+      ]
+    },
+    {
+      "paragraph_index": 8,
+      "text": "Management Approach",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9990712404251099
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6185525059700012
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.6040440201759338
+        },
+        {
+          "label": "environmental",
+          "score": 0.4239102900028229
+        }
+      ]
+    },
+    {
+      "paragraph_index": 9,
+      "text": "Intel's approach to ESG is integrated into its overall business strategy, guided by a dedicated ESG oversight committee at the board level.  The committee oversees the development and implementation of ESG policies and programs, ensuring accountability and transparency throughout the organization.  Key initiatives include targeted investments in renewable energy, employee development, and community engagement programs.  The company also prioritizes risk management, employing robust processes to identify, assess, and mitigate potential ESG-related risks across its value chain.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9509296417236328
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5347082614898682
+        },
+        {
+          "label": "supply chain",
+          "score": 0.41306087374687195
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4107072353363037
+        }
+      ]
+    },
+    {
+      "paragraph_index": 10,
+      "text": "Environmental Performance",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.9833491444587708
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.7387987375259399
+        }
+      ]
+    },
+    {
+      "paragraph_index": 11,
+      "text": "1.1 Greenhouse Gas Emissions Reduction (Scope 1, 2, & 3)",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.6446551084518433
+        },
+        {
+          "label": "carbon emissions",
+          "score": 0.46893373131752014
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.43018555641174316
+        },
+        {
+          "label": "social",
+          "score": 0.4091058373451233
+        }
+      ]
+    },
+    {
+      "paragraph_index": 12,
+      "text": "Scope 1 and 2 greenhouse gas emissions were reduced by 20% compared to the 2020 baseline through the adoption of renewable energy sources and a $50 million investment in energy efficiency upgrades across manufacturing facilities.  The company is committed to achieving net-zero emissions by 2040, exceeding the Paris Agreement timeline.  Detailed methodologies for emission calculation and verification are available in Appendix A.  Efforts to reduce Scope 3 emissions, through enhanced supplier collaboration, are discussed in the Governance section.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.6729328036308289
+        },
+        {
+          "label": "environmental",
+          "score": 0.5818716287612915
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.49082741141319275
+        },
+        {
+          "label": "energy transition",
+          "score": 0.4870508015155792
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4819195568561554
+        },
+        {
+          "label": "public",
+          "score": 0.48068833351135254
+        },
+        {
+          "label": "social",
+          "score": 0.4434232711791992
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.40606802701950073
+        },
+        {
+          "label": "carbon emissions",
+          "score": 0.40490251779556274
+        }
+      ]
+    },
+    {
+      "paragraph_index": 13,
+      "text": "1.2 Resource Management and Circular Economy Initiatives",
+      "predicted_tags": [
+        {
+          "label": "sustainable finance",
+          "score": 0.6482197046279907
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6180438995361328
+        },
+        {
+          "label": "social",
+          "score": 0.4005182087421417
+        }
+      ]
+    },
+    {
+      "paragraph_index": 14,
+      "text": "Renewable energy sources (solar, wind, and hydropower) now power 65% of Intel's operations.  Water usage was reduced by 15% through the implementation of advanced recycling systems, and zero waste-to-landfill status was achieved in eight major facilities. A new global circular economy initiative will be launched to further minimize waste generation and promote resource efficiency.  Quantifiable results for these initiatives are detailed in Appendix B.",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.431232750415802
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4238312244415283
+        },
+        {
+          "label": "environmental",
+          "score": 0.40861397981643677
+        }
+      ]
+    },
+    {
+      "paragraph_index": 15,
+      "text": "1.3 Water Stewardship and Conservation",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.7711424231529236
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.7468008995056152
+        },
+        {
+          "label": "environmental",
+          "score": 0.6680359244346619
+        },
+        {
+          "label": "supply chain",
+          "score": 0.5759830474853516
+        },
+        {
+          "label": "social",
+          "score": 0.4561164081096649
+        }
+      ]
+    },
+    {
+      "paragraph_index": 16,
+      "text": "Intel's water stewardship program focuses on reducing water consumption and improving water efficiency across its operations.  A 15% reduction in water usage was achieved through the implementation of advanced recycling systems and other water-saving initiatives.  Further details on specific initiatives and performance metrics are available upon request.",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.5439521074295044
+        },
+        {
+          "label": "governance",
+          "score": 0.49880069494247437
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4069646894931793
+        }
+      ]
+    },
+    {
+      "paragraph_index": 17,
+      "text": "Social Performance",
+      "predicted_tags": [
+        {
+          "label": "social",
+          "score": 0.98496013879776
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8549191355705261
+        },
+        {
+          "label": "governance",
+          "score": 0.55292809009552
+        },
+        {
+          "label": "human rights",
+          "score": 0.4249284863471985
+        }
+      ]
+    },
+    {
+      "paragraph_index": 18,
+      "text": "2.1 Workforce Development and Diversity, Equity, and Inclusion (DE&I)",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.9988095760345459
+        },
+        {
+          "label": "social",
+          "score": 0.5739692449569702
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.4992905259132385
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.41721609234809875
+        }
+      ]
+    },
+    {
+      "paragraph_index": 19,
+      "text": "Gender diversity in leadership positions increased to 42% women (a rise from 35% in 2020), and 40% of new hires were from underrepresented groups.  Mandatory unconscious bias training was completed by 100% of employees.  A $10 million investment in upskilling programs benefited more than 5,000 employees, contributing to a 30% increase in employee satisfaction following the launch of mental health support programs. The company targets 50/50 gender parity in leadership positions by 2026.",
+      "predicted_tags": []
+    },
+    {
+      "paragraph_index": 20,
+      "text": "2.2 Community Engagement and Philanthropy",
+      "predicted_tags": [
+        {
+          "label": "social",
+          "score": 0.9643346667289734
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8387273550033569
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4982062876224518
+        },
+        {
+          "label": "governance",
+          "score": 0.49600949883461
+        }
+      ]
+    },
+    {
+      "paragraph_index": 21,
+      "text": "Intel's commitment to community engagement is demonstrated through $25 million in donations to education and healthcare initiatives and over 50,000 employee volunteer hours contributed to local community programs.  These initiatives aim to address critical social needs and foster positive community impact.",
+      "predicted_tags": [
+        {
+          "label": "social",
+          "score": 0.5498800277709961
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.4930359423160553
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4919377267360687
+        },
+        {
+          "label": "human rights",
+          "score": 0.40188097953796387
+        }
+      ]
+    },
+    {
+      "paragraph_index": 22,
+      "text": "Governance",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9998160004615784
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.7621018290519714
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6931673884391785
+        },
+        {
+          "label": "human rights",
+          "score": 0.6106706857681274
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4493069350719452
+        },
+        {
+          "label": "social",
+          "score": 0.4416292607784271
+        }
+      ]
+    },
+    {
+      "paragraph_index": 23,
+      "text": "3.1 Board Composition and ESG Oversight",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.8428341150283813
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.654024064540863
+        },
+        {
+          "label": "human rights",
+          "score": 0.5318549871444702
+        },
+        {
+          "label": "data privacy",
+          "score": 0.5162410736083984
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.4982497990131378
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4796125888824463
+        },
+        {
+          "label": "social",
+          "score": 0.4785931408405304
+        },
+        {
+          "label": "environmental",
+          "score": 0.46925583481788635
+        }
+      ]
+    },
+    {
+      "paragraph_index": 24,
+      "text": "The board of directors demonstrates 45% diversity (gender and ethnicity), and a dedicated ESG oversight committee has been established to provide strategic guidance and oversight on ESG performance.  The committee actively monitors progress toward ESG goals and ensures accountability across the organization.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.6905078291893005
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5900932550430298
+        },
+        {
+          "label": "social",
+          "score": 0.5765568614006042
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.4797710180282593
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4689804017543793
+        },
+        {
+          "label": "public",
+          "score": 0.45588263869285583
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.45482322573661804
+        }
+      ]
+    },
+    {
+      "paragraph_index": 25,
+      "text": "3.2 Ethical Business Practices and Risk Management",
+      "predicted_tags": [
+        {
+          "label": "sustainable finance",
+          "score": 0.5208310484886169
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.46837496757507324
+        }
+      ]
+    },
+    {
+      "paragraph_index": 26,
+      "text": "Intel maintains a strong commitment to ethical business practices, as evidenced by 100% employee completion of anti-corruption training and the absence of major compliance violations in 2023.  The company has robust mechanisms in place to identify, assess, and mitigate ESG-related risks, including those associated with its supply chain.",
+      "predicted_tags": [
+        {
+          "label": "supply chain",
+          "score": 0.9882145524024963
+        },
+        {
+          "label": "governance",
+          "score": 0.7468776106834412
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5641511082649231
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.5307096242904663
+        }
+      ]
+    },
+    {
+      "paragraph_index": 27,
+      "text": "3.3 Supply Chain Sustainability",
+      "predicted_tags": [
+        {
+          "label": "supply chain",
+          "score": 0.999771237373352
+        },
+        {
+          "label": "governance",
+          "score": 0.9980891942977905
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.9162417650222778
+        },
+        {
+          "label": "environmental",
+          "score": 0.8872363567352295
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8600888252258301
+        }
+      ]
+    },
+    {
+      "paragraph_index": 28,
+      "text": "Eighty-five percent of Intel's suppliers currently comply with the company's ESG standards.  A supplier carbon footprint tracking program has been launched to support the company’s target of a 30% reduction in Scope 3 emissions through enhanced supplier collaboration.  Engagement strategies and progress toward this target will be continuously monitored and reported.",
+      "predicted_tags": [
+        {
+          "label": "carbon emissions",
+          "score": 0.9470912218093872
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.7648317813873291
+        },
+        {
+          "label": "supply chain",
+          "score": 0.7614226341247559
+        },
+        {
+          "label": "public",
+          "score": 0.6619213223457336
+        },
+        {
+          "label": "client-facing",
+          "score": 0.4507560729980469
+        },
+        {
+          "label": "environmental",
+          "score": 0.43648871779441833
+        },
+        {
+          "label": "energy transition",
+          "score": 0.42333048582077026
+        },
+        {
+          "label": "governance",
+          "score": 0.4034673273563385
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.40221482515335083
+        }
+      ]
+    },
+    {
+      "paragraph_index": 29,
+      "text": "Conclusions and Future Outlook",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.5673678517341614
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.542307436466217
+        },
+        {
+          "label": "social",
+          "score": 0.4900452196598053
+        }
+      ]
+    },
+    {
+      "paragraph_index": 30,
+      "text": "Intel Corporation is dedicated to sustainable growth and responsible business practices.  The organization will continue to transparently report its progress and engage stakeholders throughout its ESG journey.  Key future targets include expanding renewable energy sourcing to 80% of operations by 2025, achieving 50/50 gender parity in leadership positions by 2026, and achieving a 30% reduction in Scope 3 emissions through enhanced supplier collaboration.  The company's long-term vision is to be a leader in sustainable technology and a responsible corporate citizen.",
+      "predicted_tags": [
+        {
+          "label": "governance",
+          "score": 0.9927979111671448
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.9783130288124084
+        },
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.8201028108596802
+        },
+        {
+          "label": "energy transition",
+          "score": 0.65787273645401
+        },
+        {
+          "label": "client-facing",
+          "score": 0.5998944044113159
+        },
+        {
+          "label": "public",
+          "score": 0.5225410461425781
+        },
+        {
+          "label": "social",
+          "score": 0.5036070346832275
+        },
+        {
+          "label": "environmental",
+          "score": 0.47967901825904846
+        },
+        {
+          "label": "carbon emissions",
+          "score": 0.4354225993156433
+        }
+      ]
+    },
+    {
+      "paragraph_index": 31,
+      "text": "Appendices",
+      "predicted_tags": [
+        {
+          "label": "diversity, equity, and inclusion",
+          "score": 0.6663596034049988
+        },
+        {
+          "label": "sustainable finance",
+          "score": 0.5967897772789001
+        },
+        {
+          "label": "human rights",
+          "score": 0.5184106826782227
+        },
+        {
+          "label": "social",
+          "score": 0.4795151352882385
+        },
+        {
+          "label": "Global Reporting Initiative",
+          "score": 0.477881520986557
+        },
+        {
+          "label": "energy transition",
+          "score": 0.44890275597572327
+        },
+        {
+          "label": "environmental",
+          "score": 0.4364423453807831
+        }
+      ]
+    },
+    {
+      "paragraph_index": 32,
+      "text": "Appendix A: Methodology for Greenhouse Gas Emissions Calculation and Verification",
+      "predicted_tags": [
+        {
+          "label": "environmental",
+          "score": 0.41213223338127136
+        }
+      ]
+    },
+    {
+      "paragraph_index": 33,
+      "text": "Appendix B: Detailed Data Tables on Resource Management and Circular Economy Initiatives",
+      "predicted_tags": [
+        {
+          "label": "sustainable finance",
+          "score": 0.45252594351768494
+        }
+      ]
+    }
+  ]
+}

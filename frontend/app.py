@@ -22,7 +22,12 @@ if os.path.exists(image_path):
     sit.image(image, use_container_width=False, width=325)
 
 sit.title("ESG Document Quality Agent")
-sit.markdown("Upload your ESG report (PDF, DOCX, or TXT) to enhance its tone, structure, and ensure alignment with GRI compliance standards. Extract detailed metadata for deeper analysis.")
+sit.markdown(
+    "Upload your ESG report (PDF, DOCX, or TXT). "
+    "The agent refines tone and structure, checks GRI, EU CSRD and SASB "
+    "compliance, extracts detailed metadata and generates a polished PDF "
+    "with downloadable reports and compliance charts."
+)
 
 
 def clean_llm_output(text):

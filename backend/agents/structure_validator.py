@@ -10,25 +10,15 @@ def validate_structure(text: str, suggestions:str):
 You are tasked with professionally restructuring the provided ESG (Environmental, Social, and Governance) report to meet the highest standards typical of the Big 4 consulting and auditing firms, ensuring it is suitable for review by government authorities, board members, and executive stakeholders.
 
 Your objectives are:
-
 Organize the entire report strictly under the following formal sections:
-
 Executive Summary
-
 Organizational Profile
-
 Stakeholder Engagement
-
 Material Topics
-
 Management Approach
-
 Environmental Performance
-
 Social Performance
-
 Governance
-
 Conclusions and Future Outlook
 
 Appendices (if applicable), reserved for supplementary data, charts, or technical notes.

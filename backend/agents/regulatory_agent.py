@@ -85,7 +85,7 @@ def merge_reports(gri_report: dict, eu_csrd_report: dict, sasb_report: dict) -> 
             
     return combined_report
 
-def check_keyword_compliance(text: str, keywords: list[str], tag: str) -> dict:
+def check_keywords(text: str, keywords: list[str], tag: str) -> dict:
     lemmas = preprocess_text(text)
     found = []
     missing = []
@@ -118,8 +118,7 @@ def check_keyword_compliance(text: str, keywords: list[str], tag: str) -> dict:
     }
 
 
-def _collect_keywords(section: dict, keys: tuple[str, ...]) -> list[str]:
-    """Combine multiple keyword lists from a JSON section."""
+def collect_keywords(section: dict, keys: tuple[str, ...]) -> list[str]:
     keywords_section = section.get("nlp_compliance_keywords", {})
     keywords: list[str] = []
     for key in keys:
@@ -136,13 +135,13 @@ def check_all_compliance(text: str):
 
     gri_result = check_compliance(text, gri_rules)
 
-    eu_keywords = _collect_keywords(
+    eu_keywords = collect_keywords(
         eu_csrd_rules.get("csrd_compliance_rules", {}),
         ("mandatory_terms", "compliance_indicators", "red_flags"),
     )
-    eu_csrd_result = check_keyword_compliance(text, eu_keywords, "EU_CSRD")
+    eu_csrd_result = check_keywords(text, eu_keywords, "EU_CSRD")
 
-    sasb_keywords = _collect_keywords(
+    sasb_keywords = collect_keywords(
         sasb_rules.get("sasb_compliance_rules", {}),
         (
             "mandatory_identifiers",
@@ -151,7 +150,7 @@ def check_all_compliance(text: str):
             "red_flags",
         ),
     )
-    sasb_result = check_keyword_compliance(text, sasb_keywords, "SASB")
+    sasb_result = check_keywords(text, sasb_keywords, "SASB")
 
     final_report = merge_reports(
         gri_result["detailed_report"],

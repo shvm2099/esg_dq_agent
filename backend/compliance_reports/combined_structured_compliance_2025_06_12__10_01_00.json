@@ -1,0 +1,188 @@
+{
+  "gri_score": 80.77,
+  "eu_csrd_score": 88.89,
+  "sasb_score": 85.71,
+  "final_report": {
+    "GRI_305": {
+      "topic": "Emissions",
+      "disclosures": [
+        {
+          "id": "305-1",
+          "title": "Direct (Scope 1) GHG emissions",
+          "found_data_points": [
+            "GHG Protocol alignment",
+            "CO2, CH4, N2O metrics",
+            "baseline year",
+            "emission factors"
+          ],
+          "missing_data_points": [],
+          "score_percent": 100.0
+        },
+        {
+          "id": "305-2",
+          "title": "Energy indirect (Scope 2) GHG emissions",
+          "found_data_points": [
+            "Location-based and market-based figures",
+            "Electricity consumption",
+            "Emission factors"
+          ],
+          "missing_data_points": [],
+          "score_percent": 100.0
+        },
+        {
+          "id": "305-3",
+          "title": "Other indirect (Scope 3) GHG emissions",
+          "found_data_points": [
+            "Upstream/downstream activities",
+            "Transport, waste, employee commuting"
+          ],
+          "missing_data_points": [],
+          "score_percent": 100.0
+        }
+      ]
+    },
+    "GRI_403": {
+      "topic": "Occupational Health and Safety",
+      "disclosures": [
+        {
+          "id": "403-1",
+          "title": "Occupational health and safety management system",
+          "found_data_points": [
+            "Risk assessment mechanisms"
+          ],
+          "missing_data_points": [
+            "System description",
+            "Coverage"
+          ],
+          "score_percent": 33.33
+        },
+        {
+          "id": "403-9",
+          "title": "Work-related injuries",
+          "found_data_points": [
+            "Injury rate",
+            "Type of incidents",
+            "Preventive measures"
+          ],
+          "missing_data_points": [
+            "Fatalities"
+          ],
+          "score_percent": 75.0
+        }
+      ]
+    },
+    "GRI_405": {
+      "topic": "Diversity and Equal Opportunity",
+      "disclosures": [
+        {
+          "id": "405-1",
+          "title": "Diversity of governance bodies and employees",
+          "found_data_points": [
+            "Age group",
+            "Minority group participation",
+            "Board diversity"
+          ],
+          "missing_data_points": [
+            "Gender"
+          ],
+          "score_percent": 75.0
+        }
+      ]
+    },
+    "GRI_102": {
+      "topic": "General Disclosures (Governance, Ethics)",
+      "disclosures": [
+        {
+          "id": "102-18",
+          "title": "Governance structure",
+          "found_data_points": [
+            "Board committees",
+            "Sustainability oversight"
+          ],
+          "missing_data_points": [
+            "Delegation of authority"
+          ],
+          "score_percent": 66.67
+        },
+        {
+          "id": "102-16",
+          "title": "Values, principles, standards, and norms of behavior",
+          "found_data_points": [
+            "Code of conduct",
+            "Ethics training",
+            "Anti-corruption measures"
+          ],
+          "missing_data_points": [],
+          "score_percent": 100.0
+        }
+      ]
+    },
+    "EU_CSRD": {
+      "topic": "EU_CSRD Key Terms",
+      "disclosures": [
+        {
+          "id": "EU_CSRD",
+          "title": "Keyword presence",
+          "found_data_points": [
+            "double materiality assessment",
+            "greenhouse gas emissions",
+            "scope 3 emissions",
+            "climate risk assessment",
+            "sustainability performance",
+            "ESG reporting",
+            "ESRS standards",
+            "material sustainability matters",
+            "environmental impact",
+            "social impact",
+            "governance practices",
+            "risk management",
+            "no climate reporting",
+            "missing materiality assessment",
+            "incomplete scope 3 data",
+            "no double materiality"
+          ],
+          "missing_data_points": [
+            "opportunity identification",
+            "missing ESRS compliance"
+          ],
+          "score_percent": 88.89
+        }
+      ]
+    },
+    "SASB": {
+      "topic": "SASB Key Terms",
+      "disclosures": [
+        {
+          "id": "SASB",
+          "title": "Keyword presence",
+          "found_data_points": [
+            "financially material",
+            "enterprise value",
+            "industry-specific sustainability",
+            "SASB standard",
+            "accounting metrics",
+            "disclosure topics",
+            "sector-specific",
+            "material ESG issues",
+            "investor decision-making",
+            "financial performance impact",
+            "sustainability accounting",
+            "ESG disclosure",
+            "materiality assessment",
+            "stakeholder engagement",
+            "missing materiality assessment",
+            "generic ESG reporting",
+            "no financial materiality connection",
+            "incomplete accounting metrics"
+          ],
+          "missing_data_points": [
+            "SICS classification",
+            "risk and opportunity identification",
+            "no industry identification"
+          ],
+          "score_percent": 85.71
+        }
+      ]
+    }
+  }
+}

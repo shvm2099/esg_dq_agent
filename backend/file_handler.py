@@ -11,7 +11,7 @@ from langchain_community.document_loaders import (
     UnstructuredWordDocumentLoader,
 )
 
-async def extract_text_from_file(file: UploadFile) -> str:
+async def extract_text(file: UploadFile) -> str:
     ext = os.path.splitext(file.filename)[-1].lower()
     
     with tempfile.NamedTemporaryFile(delete=False, suffix=ext) as temp_file:

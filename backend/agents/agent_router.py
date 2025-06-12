@@ -5,13 +5,12 @@ from backend.agents.regulatory_agent import (
     check_all_compliance,
     save_compliance_report,
 )
-from backend.rag.rag_suggest import generate_suggested_headers
+from backend.rag.rag_suggest import generate_headers
 def route_to_agent(text: str):
-    """Run the full processing pipeline on ``text``."""
 
     cal_text = calibrate_tone(text)
 
-    suggestions = generate_suggested_headers(cal_text)
+    suggestions = generate_headers(cal_text)
     stru_text = validate_structure(cal_text, suggestions)
 
     metadata_filename = extract_metadata(stru_text)

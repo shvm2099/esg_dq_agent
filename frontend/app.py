@@ -10,7 +10,11 @@ load_dotenv()
 
 BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
 
-sit.set_page_config(page_title="ESG Document Quality", layout="wide")
+sit.set_page_config(
+    page_title="ESG Document Quality Agent", 
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 image_path = "pics/kpmg.png"
 if os.path.exists(image_path):
@@ -68,6 +72,7 @@ def gauge_chart(value: float, label: str) -> None:
     )
     fig.update_layout(width=300, height=225, margin=dict(l=20, r=20, t=40, b=0))
     sit.sidebar.plotly_chart(fig, use_container_width=False)
+
 if sit.session_state.result:
     result = sit.session_state.result
     processed_text = clean_llm_output(result.get("processed_text", "[No output returned]"))

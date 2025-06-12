@@ -50,7 +50,7 @@ class TensorFlowHuggingFaceEmbeddings(Embeddings):
 
 
 
-def generate_suggested_headers(input_text: str) -> str:
+def generate_headers(input_text: str) -> str:
 
     persist_directory = "backend/vector_store_temp"
 

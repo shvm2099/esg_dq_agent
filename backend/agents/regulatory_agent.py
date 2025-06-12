@@ -118,6 +118,17 @@ def check_keyword_compliance(text: str, keywords: list[str], tag: str) -> dict:
     }
 
 
+def _collect_keywords(section: dict, keys: tuple[str, ...]) -> list[str]:
+    """Combine multiple keyword lists from a JSON section."""
+    keywords_section = section.get("nlp_compliance_keywords", {})
+    keywords: list[str] = []
+    for key in keys:
+        value = keywords_section.get(key, [])
+        if isinstance(value, list):
+            keywords.extend(value)
+    return keywords
+
+
 def check_all_compliance(text: str):
     gri_rules = load_rules(GRI_RULES_PATH)
     eu_csrd_rules = load_rules(EU_CSRD_RULES_PATH)
@@ -125,17 +136,20 @@ def check_all_compliance(text: str):
 
     gri_result = check_compliance(text, gri_rules)
 
-    eu_keywords = (
-        eu_csrd_rules.get("csrd_compliance_rules", {})
-        .get("nlp_compliance_keywords", {})
-        .get("mandatory_terms", [])
+    eu_keywords = _collect_keywords(
+        eu_csrd_rules.get("csrd_compliance_rules", {}),
+        ("mandatory_terms", "compliance_indicators", "red_flags"),
     )
     eu_csrd_result = check_keyword_compliance(text, eu_keywords, "EU_CSRD")
 
-    sasb_keywords = (
-        sasb_rules.get("sasb_compliance_rules", {})
-        .get("nlp_compliance_keywords", {})
-        .get("mandatory_identifiers", [])
+    sasb_keywords = _collect_keywords(
+        sasb_rules.get("sasb_compliance_rules", {}),
+        (
+            "mandatory_identifiers",
+            "industry_validation_terms",
+            "compliance_indicators",
+            "red_flags",
+        ),
     )
     sasb_result = check_keyword_compliance(text, sasb_keywords, "SASB")
 

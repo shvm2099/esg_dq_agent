@@ -21,5 +21,5 @@ For example, an informal statement such as "We did pretty well on cutting emissi
 
 The final deliverable should be a professionally refined ESG report that retains all original data while meeting the linguistic and stylistic expectations of high-level institutional audiences. The language should convey authority, credibility, and precision, ensuring it is suitable for formal review by executives, policymakers, and regulatory bodies.
 Text starts here: '{text}' """
-    reponse = model.generate_content(prompt)
-    return reponse.text
+    response = model.generate_content(prompt)
+    return response.text
